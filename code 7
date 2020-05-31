@@ -1,0 +1,143 @@
+## title page
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h6> <a href="form.html">login/registration </a> </h6>
+</body>
+<body>
+	<img class="iipe-logo" src="https://media-private.canva.com/XsuUc/MAD1PUXsuUc/1/tl.png?response-expires=Thu%2C%2030%20Apr%202020%2022%3A08%3A37%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200430T192314Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9922&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20200430%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=570887ff6c25b9809c337cf7e62db69aafc3229bc560801a94846f4be1c3be0d" alt="iipe-logo">
+</body>
+     
+    <body>
+    	<h1 style="color:Tomato;">SHASVATH</h1>
+    </body>
+	
+	</body>
+
+	<body>
+		<img class="harry-potter" src="https://cdn.clipart.email/a21f5dcd80dc7154211844d9dbcb3d06_flying-vector-harry-potter-picture-1085868-harry-potter-clipart_292-175.png" alt="harry-potter">
+	</body>
+	<body>
+		<img class="harry-snitch" src="https://media-public.canva.com/QCzkI/MAD2UvQCzkI/1/tl.png" alt="harry snitch">
+
+	</body>
+
+</html>
+
+## css for title page
+body{
+	background-image: url(https://images.squarespace-cdn.com/content/v1/59d38e928a02c74a3c81a708/1509553549067-PJJNT851XXZENW7IT4IZ/ke17ZwdGBToddI8pDm48kFu84C23nyagYsP7Lr7qD_N7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0vjkHXEqCsCIVn3nJnVd0x8ZUoymiGnA9ci-iMfxmkJuHp1CRkfL3ZalwEbWehfcyw/background.png?format=2500w);
+	background-size: cover;
+}
+h6 {
+	text-align: right;
+	font-size: 20px;
+}
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+h1 {
+	text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+	font-size: 200px
+	
+
+}
+.iipe-logo {
+	width: 50px
+}
+.harry-potter {
+	width: 500px
+  padding:20px;
+}
+.harry-snitch {
+	width: 300px
+  
+}
+
+## login page
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <form action="action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
+
+
+
