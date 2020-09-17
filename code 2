@@ -15,7 +15,7 @@ else:
        n2 = nth
        count += 1
        
-How many terms? 10
+How many terms? 13
 Fibonacci sequence:
 0
 1
@@ -27,4 +27,6 @@ Fibonacci sequence:
 13
 21
 34
->>> 
+55
+89
+144
